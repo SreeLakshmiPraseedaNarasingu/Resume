@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sree Lakshmi Praseeda Narasingu | Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background: #f4f6fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #002855, #00509e);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    nav {
+      text-align: center;
+      background: white;
+      padding: 15px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #002855;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #0073e6;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 50px 30px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #002855;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      border-left: 5px solid #0073e6;
+      padding-left: 10px;
+    }
+
+    .skills, .projects, .certifications, .achievements {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      padding: 25px;
+      border-radius: 12px;
+      background: #f9fbff;
+      border: 1px solid #e0e6f0;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      background: #ffffff;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #00509e;
+      font-size: 1.2rem;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #002855;
+      color: white;
+      font-size: 0.95rem;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ffd633;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sree Lakshmi Praseeda Narasingu</h1>
+  <p>B.Tech ECE | Web Developer | Embedded Enthusiast</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am an enthusiastic B.Tech Electronics and Communication Engineering student with hands-on experience in web development, embedded systems, and VLSI. Passionate about solving problems, continuous learning, and applying technology to real-world challenges.</p>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div class="card"><h3>Programming</h3><p>C, C++, Java, JavaScript, HTML, CSS</p></div>
+    <div class="card"><h3>Core ECE</h3><p>Embedded Systems, Digital Electronics, VLSI Basics, Signal Processing</p></div>
+    <div class="card"><h3>Tools</h3><p>Arduino, Git/GitHub, MATLAB (Basics)</p></div>
+    <div class="card"><h3>Soft Skills</h3><p>Problem-Solving, Teamwork, Research & Documentation</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>GPA Calculator</h3>
+      <p>Developed a GPA calculation web tool using HTML, CSS, and JavaScript for quick and accurate academic grade computation.</p>
+    </div>
+    <div class="card">
+      <h3>To-Do App / Stopwatch / Tic-Tac-Toe</h3>
+      <p>Built interactive applications during internship demonstrating DOM manipulation and UI/UX design skills.</p>
+    </div>
+    <div class="card">
+      <h3>Mini Embedded Project</h3>
+      <p>Implemented LED control and sensor interfacing during ISRO/NIELIT training, applying basic embedded concepts.</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <p><strong>Web Developer Intern – SkillCraft Technology (July 2025)</strong></p>
+  <ul>
+    <li>Developed responsive and interactive web apps including To-Do app, Tic-Tac-Toe, and Stopwatch.</li>
+    <li>Enhanced skills in HTML, CSS, JavaScript, and UI/UX design.</li>
+    <li>Received a Letter of Recommendation for technical proficiency and eagerness to learn.</li>
+  </ul>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certifications">
+    <div class="card">Embedded Systems for Beginners – NIELIT (July 2025)</div>
+    <div class="card">VLSI for Beginners – NIELIT (July 2025)</div>
+    <div class="card">Space Science & Technology Training – ISRO (Jan 2025)</div>
+    <div class="card">Overview of GNSS – IIRS, ISRO</div>
+    <div class="card">Overview of Geocomputation & Geo-web Services – IIRS, ISRO</div>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="achievements">
+    <div class="card">3rd Prize – Internal Ideation Competition, V-Launchpad 2025 (VIT-AP)</div>
+    <div class="card">Letter of Recommendation – SkillCraft Technology</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:praseeda.23bec7203@vitapstudent.ac.in">praseeda.23bec7203@vitapstudent.ac.in</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/narasingu-sree-l-42485428a" target="_blank">linkedin.com/in/narasingu-sree-l-42485428a</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Sree Lakshmi Praseeda Narasingu | Crafted with 💙</p>
+</footer>
+
+</body>
+</html>
